@@ -20,3 +20,5 @@ cook: prepare
 	bundle exec knife solo cook $(USER)@$(HOST)
 
 .PHONY: tls bundle prepare cook
+
+.SECONDARY:
