@@ -47,6 +47,7 @@ GRAPH
   ohai (2.0.1)
   poise-docker (0.0.1)
     docker (>= 0.0.0)
+    iptables (>= 0.0.0)
   polipo (0.1.0)
   runit (1.5.12)
     build-essential (>= 0.0.0)

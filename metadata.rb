@@ -18,3 +18,4 @@ name 'poise-docker'
 version '0.0.1'
 
 depends 'docker'
+depends 'iptables'

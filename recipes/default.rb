@@ -14,6 +14,16 @@
 # limitations under the License.
 #
 
+iptables_rule 'ssh' do
+  source 'iptables_ssh.erb'
+end
+
+iptables_rule 'docker' do
+  source 'iptables_docker.erb'
+end
+
+include_recipe 'iptables'
+
 directory '/etc/docker_keys' do
   owner 'root'
   group 'root'
