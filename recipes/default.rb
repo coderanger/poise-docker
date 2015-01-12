@@ -30,6 +30,7 @@ end
     group 'root'
     mode '600'
     source ::File.basename(path)
+    sensitive true
   end
 end
 
