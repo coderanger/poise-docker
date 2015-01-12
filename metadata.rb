@@ -1,5 +1,5 @@
 #
-# Copyright 2014, Noah Kantrowitz
+# Copyright 2015, Noah Kantrowitz
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,6 +16,9 @@
 
 name 'poise-docker'
 version '0.0.1'
+description 'Quickly deploy a Docker server with remote authentication'
+long_description IO.read(File.expand_path('../README.md', __FILE__))
+maintainer 'Noah Kantrowitz <noah@coderanger.net>'
 
 depends 'docker'
 depends 'iptables'
